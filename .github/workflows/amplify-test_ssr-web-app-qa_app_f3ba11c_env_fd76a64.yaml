@@ -1,11 +1,8 @@
-name: >-
-  amplify-test_ssr-web-app-staging_app_f3ba11c_env_28e0313 Pipeline (Skyu
-  Generated)
+name: amplify-test_ssr-web-app-qa_app_f3ba11c_env_fd76a64 Pipeline (Skyu Generated)
 'on':
   push:
     branches:
-      - staging
-      - release/*
+      - qa
     paths-ignore:
       - .github/workflows/**
       - .trivyignore
@@ -13,10 +10,9 @@ name: >-
       - README.md
   workflow_dispatch: {}
   repository_dispatch:
-    types: pipeline_93dbf5fd-9082-4c55-8c39-9adfc728ae54
+    types: pipeline_4384676a-9906-4457-b8c0-888fd2c71abe
 env:
-  ENCODED_PIPELINE_SECRET: >-
-    ${{secrets.COFFEEORDERSVC_AMPLIFYTEST_SSRWEBAPPSTAGING_APP_F3BA11C_ENV_28E0313}}
+  ENCODED_PIPELINE_SECRET: ${{secrets.COFFEEORDERSVC_AMPLIFYTEST_SSRWEBAPPQA_APP_F3BA11C_ENV_FD76A64}}
   COMMIT_ID: ${{github.event.client_payload.commitId || github.sha || github.run_id}}
   BRANCH_NAME: >-
     ${{github.event.client_payload.branchName || github.event.branch ||
