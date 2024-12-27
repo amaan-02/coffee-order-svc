@@ -91,7 +91,7 @@ jobs:
                       echo "SARIF file not found."
                   fi
   _status-pending:
-    name: ' Status Pending'
+    name: ' Status Complete'
     permissions: write-all
     env:
       CONTEXT_JSON: ${{ toJson(github) }}
