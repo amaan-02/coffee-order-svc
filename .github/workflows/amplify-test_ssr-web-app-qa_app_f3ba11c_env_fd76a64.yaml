@@ -10,7 +10,7 @@ name: amplify-test_ssr-web-app-qa_app_f3ba11c_env_fd76a64 Pipeline (Skyu Generat
       - README.md
   workflow_dispatch: {}
   repository_dispatch:
-    types: pipeline_4384676a-9906-4457-b8c0-888fd2c71abe
+    types: pipeline_7d7152e8-28cf-4791-9264-7b94d2d60a79
 env:
   ENCODED_PIPELINE_SECRET: ${{secrets.COFFEEORDERSVC_AMPLIFYTEST_SSRWEBAPPQA_APP_F3BA11C_ENV_FD76A64}}
   COMMIT_ID: ${{github.event.client_payload.commitId || github.sha || github.run_id}}

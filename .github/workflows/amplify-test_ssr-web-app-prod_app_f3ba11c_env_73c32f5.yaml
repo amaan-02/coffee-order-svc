@@ -12,7 +12,7 @@ name: >-
       - README.md
   workflow_dispatch: {}
   repository_dispatch:
-    types: pipeline_f04e128c-88ee-4045-892a-ae34469ea63c
+    types: pipeline_f1e3fc6f-ac8d-4f20-89eb-d72bccbc5eeb
 env:
   ENCODED_PIPELINE_SECRET: >-
     ${{secrets.COFFEEORDERSVC_AMPLIFYTEST_SSRWEBAPPPROD_APP_F3BA11C_ENV_73C32F5}}
